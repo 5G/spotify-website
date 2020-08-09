@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
+import Login from "./Login";
+import {} from "dotenv/config";
 
 /*
 TODO:
 
-- Login Page
+- Login Component
   - Logo
   - Login Button
   - OAuth
@@ -13,8 +15,12 @@ TODO:
 function App() {
   return (
     <div className="app">
-      <h1>Spotify.website 🚀</h1>
+      <Login />
     </div>
+    function test() {
+      console.log(process.env.TEST);
+    }
+    test();
   );
 }
 
