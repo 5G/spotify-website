@@ -3,10 +3,13 @@ import "./Login.css";
 
 function Login() {
   return (
-    <div className="login">
-      <img src="/spotify.jpg" alt="Spotify Logo" />
-      <a>LOGIN WITH SPOTIFY</a>
-    </div>
+    console.log(process.env.TEST),
+    (
+      <div className="login">
+        <img src="/spotify.jpg" alt="Spotify Logo" />
+        <a>LOGIN WITH SPOTIFY</a>
+      </div>
+    )
   );
 }
 

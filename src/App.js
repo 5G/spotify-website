@@ -17,10 +17,6 @@ function App() {
     <div className="app">
       <Login />
     </div>
-    function test() {
-      console.log(process.env.TEST);
-    }
-    test();
   );
 }
 
