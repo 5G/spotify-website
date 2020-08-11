@@ -1,3 +1,9 @@
+Spotify.website
+* https://spotify.website
+* Spotify web remote for connected devices built with React
+* Uses Spotify Web API for oAuth & device playback control
+* Due to API limitations it's not possible to play music through the web-app itself.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
