@@ -29,13 +29,21 @@ function App() {
           user,
         });
       });
+      spotify.getUserPlaylists().then((playlists) => {
+        dispatch({
+          type: "SET_PLAYLISTS",
+          playlists,
+        });
+      });
+
+      spotify.getPlaylist("37i9dQZEVXcIJazRV9ISoM").then((response) =>
+        dispatch({
+          type: "SET_DISCOVER_WEEKLY",
+          discover_weekly: response,
+        })
+      );
     }
-
-    console.log("TOKEN -> ", token);
   }, []);
-
-  console.log("😀", user);
-  console.dir(token);
 
   return (
     <div className="app">
