@@ -1,6 +1,6 @@
 {
-  "short_name": "Spotify Website",
-  "name": "Create React App Sample",
+  "short_name": "spotify.website",
+  "name": "Spotify web remote built with React",
   "icons": [
     {
       "src": "favicon.ico",
